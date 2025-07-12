@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.movieContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.moviePic {
+  height: 400px;
+  width: 270px;
+  opacity: 0.95;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movieDetail {
+  position: relative;
+  top: 30px;
+  width: 60%;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
